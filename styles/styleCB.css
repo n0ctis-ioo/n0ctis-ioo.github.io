@@ -1,0 +1,163 @@
+header
+{
+    background-image: url(../images/dogheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: rgb(245, 211, 161);
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+
+.navmove
+{
+    position: relative; /* lets you move element using top, left, bottom, right */
+    left: 150px;
+}
+nav{
+    
+    padding: 5px;
+    
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #ecbf41;
+    display: inline;
+    padding: 10px;
+    margin:5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: rgb(247, 200, 98);
+    border: 3px solid white;
+    
+}
+nav ul li a.active {
+    background-color: rgb(155, 240, 85); /* Highlight active link */
+    color: #000;
+}
+
+
+body
+{
+    background-color: black;
+    color: white;
+    
+}
+
+footer
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+
+    text-align: center;
+}
+
+footer ul li
+{
+    list-style-type: none;
+   
+    display: inline;
+    padding: 10px;
+    margin:5px;
+   
+}
+
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li:hover
+{
+    background-color: lightgreen;
+}
+
+
+
+
+#borderMain
+{
+    float: left;
+    width: 100%;
+    border: 1px solid grey;
+    
+}
+.textCenter
+{
+    text-align: center;
+}
+
+.frenchbulldog{
+    height: 300px;
+    width: 25%;
+    border: 3px solid orange;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.labrador{
+    height: 300px;
+    width: 25%;
+    border: 3px solid orange;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.shepherd{
+    height: 300px;
+    width: 25%;
+    border: 3px solid orange;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.popularintro {
+    margin-bottom: 30px; /* Adds space below the paragraph */
+    font-size: 18px; /* Increases font size */
+    line-height: 1.6; /* Improves readability */
+    color: #333; /* Dark gray color for better contrast */
+    
+}
+
+
+
+iframe
+{
+    height: auto;
+    width: 30%;
+}
+
+.columns {
+    display: flex;
+    gap: 20px; /* Space between columns */
+    margin-bottom: 200px;
+}
+.column {
+    flex: 1; /* Each column takes equal space */
+}
+.columns h2 {
+    margin-top: 0;
+}

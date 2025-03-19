@@ -1,0 +1,216 @@
+header
+{
+    background-image: url(../images/dogheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    color: rgb(245, 211, 161);
+    border: 1px solid white;
+    border-radius: 10px; 
+}
+
+.navmove
+{
+    position: relative; /* lets you move element using top, left, bottom, right */
+    left: 150px;
+}
+nav{
+    
+    padding: 5px;
+    
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: #ecbf41;
+    display: inline;
+    padding: 10px;
+    margin:5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: rgb(247, 200, 98);
+    border: 3px solid white;
+    
+}
+nav ul li a.active {
+    background-color: rgb(155, 240, 85); /* Highlight active link */
+    color: #000;
+}
+
+
+body
+{
+    background-color: black;
+    color: white;
+    
+}
+
+footer
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+
+    text-align: center;
+}
+
+footer ul li
+{
+    list-style-type: none;
+   
+    display: inline;
+    padding: 10px;
+    margin:5px;
+   
+}
+
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li:hover
+{
+    background-color: lightgreen;
+}
+
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li
+{
+    list-style-type: none;
+}
+
+aside
+{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+   
+}
+
+
+#borderMain
+{
+    float: left;
+    width: 80%;
+    border: 1px solid grey;
+    
+}
+.textCenter
+{
+    text-align: center;
+}
+
+.smiledog{
+    height: 500px;
+    width: 35%;
+    border: 3px solid orange;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.goldenDog{
+    height: 400px;
+    width: 35%;
+    border: 3px solid orange;
+    display: block;
+    margin: 14px;
+    border-radius: 5px;
+
+}
+
+
+.columns {
+    display: flex;
+    gap: 20px; /* Space between columns */
+    margin-bottom: 200px;
+}
+.column {
+    flex: 1; /* Each column takes equal space */
+}
+.columns h2 {
+    margin-top: 0;
+}
+
+.fun-facts {
+    margin: 50px; /* Add some space above */
+}
+
+.contact {
+    margin-top: 50px; /* Adds space above the contact section */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Limits the width of the form */
+    margin-left: auto; /* Centers the form horizontally */
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center; /* Centers the heading */
+    color: #333; /* Dark gray color */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column; /* Stacks form boxes vertically */
+    gap: 15px; /* Adds space between form boxes */
+}
+
+.contact label {
+    font-weight: bold; /* Makes labels bold */
+    color: #555; /* Medium gray color */
+}
+
+.contact input, .contact textarea {
+    padding: 10px; /* Adds padding inside and in the textarea */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners  */
+    font-size: 16px; /* Increases font size */
+}
+
+.contact textarea {
+    resize: vertical; /* Allows vertical resizing of textarea basically text expands the box and adds scroll if it goes past 4 rows (is in the html set as 4) */
+}
+
+.contact button {
+    padding: 10px 20px; /* Adds padding to the button */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Increases font size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect so when you hover over the send button it eases into the dark blue*/
+}
+
+.contact button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
