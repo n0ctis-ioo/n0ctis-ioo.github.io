@@ -54,6 +54,7 @@ body
 {
     background-color: black;
     color: white;
+    font-family: 'Times New Roman';
     
 }
 
@@ -107,39 +108,22 @@ footer ul li:hover
     text-align: center;
 }
 
-.frenchbulldog{
-    height: 300px;
-    width: 25%;
+.dog{
+    height: 400px;
+    width: 35%;
     border: 3px solid orange;
     display: block;
     margin: 10px;
     border-radius: 5px;
 }
 
-.labrador{
-    height: 300px;
-    width: 25%;
-    border: 3px solid orange;
-    display: block;
-    margin: 10px;
-    border-radius: 5px;
-}
 
-.shepherd{
-    height: 300px;
-    width: 25%;
-    border: 3px solid orange;
-    display: block;
-    margin: 10px;
+#commonintro {
+    background-color: #2a2a2a;
+    padding: 15px;
     border-radius: 5px;
-}
-
-.popularintro {
-    margin-bottom: 30px; /* Adds space below the paragraph */
-    font-size: 18px; /* Increases font size */
-    line-height: 1.6; /* Improves readability */
-    color: #333; /* Dark gray color for better contrast */
-    
+    margin-bottom: 20px;
+    border-left: 4px solid #ff4d4d;
 }
 
 
@@ -153,7 +137,7 @@ iframe
 .columns {
     display: flex;
     gap: 20px; /* Space between columns */
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .column {
     flex: 1; /* Each column takes equal space */
