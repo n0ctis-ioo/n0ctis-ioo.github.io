@@ -107,14 +107,20 @@ footer ul li:hover
 }
 
 .dog{
-    height: 300px;
-    width: 25%;
+    height: 400px;
+    width: 35%;
     border: 3px solid orange;
     display: block;
     margin: 10px;
     border-radius: 5px;
 }
 
+video
+{
+    border: 2px solid orange;
+    border-radius: 10px; 
+    
+}
 
 iframe
 {
@@ -125,7 +131,7 @@ iframe
 .columns {
     display: flex;
     gap: 20px; /* Space between columns */
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .column {
     flex: 1; /* Each column takes equal space */
@@ -133,3 +139,63 @@ iframe
 .columns h2 {
     margin-top: 0;
 }
+
+#backg {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #ff4d4d;
+}
+
+#backg2 {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #f0b64c;
+}
+
+#backg3 {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #a3ff4d;
+}
+
+#backg4 {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #f1f1f1;
+}
+
+.sport-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Styling for table headers (th) and table data cells (td) */
+.sport-table th, .sport-table td {
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Styling for table headers (th) */
+.sport-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Styling for table data cells (td) */
+.sport-table td {
+    font-size: 1em;
+    
+}
+
+
