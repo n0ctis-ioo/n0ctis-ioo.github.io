@@ -1,13 +1,3 @@
-header
-{
-    background-image: url(../images/dogheader.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    color: rgb(245, 211, 161);
-    border: 1px solid white;
-    border-radius: 10px; 
-}
 
 .navmove
 {
@@ -107,8 +97,8 @@ footer ul li:hover
 }
 
 .dog{
-    height: 300px;
-    width: 25%;
+    height: 400px;
+    width: 35%;
     border: 3px solid orange;
     display: block;
     margin: 10px;
@@ -120,20 +110,27 @@ footer ul li:hover
     border-bottom: 1px solid #ddd;
 }
 
+/* Styling for images inside .section */
 .section img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
 }
+
+/* Styling for paragraphs inside .section */
 .section p {
     font-size: 18px;
    
 }
+
+/* Styling for unordered lists inside .section */
 .section ul {
-    list-style-type: disc;
+    list-style-type: disc; /* Uses filled circle bullets for list items */
     margin-left: 20px;
 }
+
+/* Styling for list items inside .section */
 .section ul li {
     margin-bottom: 10px;
 }
@@ -148,11 +145,19 @@ iframe
 .columns {
     display: flex;
     gap: 20px; /* Space between columns */
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .column {
     flex: 1; /* Each column takes equal space */
 }
 .columns h2 {
     margin-top: 0;
+}
+
+#aggrointro {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #ff4d4d;
 }
