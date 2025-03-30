@@ -7,6 +7,7 @@ header
     color: rgb(245, 211, 161);
     border: 1px solid white;
     border-radius: 10px; 
+    
 }
 
 .navmove
@@ -54,7 +55,7 @@ body
 {
     background-color: black;
     color: white;
-    
+    font-family: 'Times New Roman';
 }
 
 footer
@@ -156,17 +157,16 @@ aside
     margin-top: 0;
 }
 
-.fun-facts {
+#fun-facts {
     margin: 50px; /* Add some space above */
 }
 
-/*sourced contact form from W3SCHOOLS */
 .contact {
     margin-top: 50px; /* Adds space above the contact section */
     padding: 20px;
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9; /* Light background color */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     max-width: 600px; /* Limits the width of the form */
     margin-left: auto; /* Centers the form horizontally */
     margin-right: auto;
@@ -192,9 +192,9 @@ aside
 
 .contact input, .contact textarea {
     padding: 10px; /* Adds padding inside and in the textarea */
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 16px; 
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners  */
+    font-size: 16px; /* Increases font size */
 }
 
 .contact textarea {
